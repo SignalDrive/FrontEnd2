@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.CSS">
+    <link rel="stylesheet" href="./BOOTSTRAP/css/bootstrap.min.css">
+    <title>frontend </title>
+</head>
+
+<body>
+    <!--Inicio do Menu-->
+    <header id="header">
+        <a id="logo" href="index.html"> <img src="./IMG/Logo_BringMeHorizon.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+
+            </button>
+
+            <ul id="menu" role="menu">
+                <li class="link menu" href="./index.html">home</li>
+                <li class="link menu" href="./quem_somos.html">quem somos</li>
+                <li class="link menu" href="./produtos.html">produtos</li>
+                <li class="link menu" href="./videos.html">videos</li>
+                <li class="link menu" href="./contato.html">contato</li>
+
+            </ul>
+        </nav>
+    </header>
+    <!--carrosel-->
+
+    <div id="carrouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="none">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./IMG/imagem1.png" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/imagem2.webp" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/imagem3.jpg" class="d-block w-100" alt="Banner 3">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/imagem4.jpg" class="d-block w-100" alt="Banner 4">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/imagem5.png" class="d-block w-100" alt="Banner 5">
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" data-bs-interval="#carouselExampleInterval" type="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="visually-hidden">anterior</span>
+            </span>
+        </button>
+        <button class="carousel-control-next" data-bs-interval="#carouselExampleInterval" type="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="visually-hidden">proximo</span>
+            </span>
+        </button>
+    </div>
+
+    
+    <!-- Inicio Banner-->
+    <section class="section-banner-homer" aria-label="chamada principal">
+        <div class="content-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./IMG/banner_principal.png" alt="Banner:Shows da semana" loading="lazy">
+                    </figure>
+                    <div class="col-12 col-md-6">
+                        <section class="texto-banner d-none d-md-block" aria-label="mensagem Principal">
+                            <h1>conheça os locais do proximos shows</h1>
+                            <p class=" d-none d-md-block">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, repudiandae obcaecati
+                                atque nihil harum ab ratione animi quo adipisci, quos est dolore cum nobis! Laudantium
+                                nobis doloribus ratione eligendi! Quos.
+                            </p>
+                            <a href="#" aria-label="Saiba mais sobre"></a>
+                        </section>
+
+                        <!--inicio destaque-->
+                        <section class="destaque" aria-label="Coleções de albuns">
+                            <div class="container">
+                                <div class="row d-flex justify-content-center">
+                                    <header class="col-12">
+                                        <h2> Conheça os albuns já lançados</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus a ex ullam
+                                            eum sapiente quae delectus, libero cum dolores perferendis officia aliquam
+                                            quam ratione inventore vel? Cum voluptas ad repellendus!
+                                        </p>
+                                    </header>
+                                    <!-- Objeto 1 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- objeto 2 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- objeto 3 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- objeto 4 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- objeto 5 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- objeto 6 -->
+                                    <div class="col-6 col-md-2 pr-0">
+                                        <figure>
+                                            <a href="./produtos.html" aria-label="Veja mais detalhes de cada album">
+                                                <img src="./IMG/destaque_1.png" alt="album that's the spirit"
+                                                    width="100%" loading="lazy">
+                                            </a>
+                                            <figcaption>album <br> That's the spirit | 2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <a id="Saiba mais" href="./produtos.html"
+                                            aria-label="ir para pagina de produtos">saiba mais</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                        <!--fim destaque-->
+                        <!--Proxima aula-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--fim do Banner-->
+
+</body>
+<script type="text/javascript" src="./BOOTSTRAP/js/bootstrap.min.js"></script>
+
+</html>
